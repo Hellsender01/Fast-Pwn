@@ -1552,7 +1552,7 @@ class ROP(object):
         from .ret2plt import ret2plt
 
         elf = next(elf for elf in self.elfs)
-        ret2plt(self, elf, leak, ret, verbose)
+        ret2plt(self, elf, leak, ret)
 
     def ret2system(self, aling=True, bin_sh=None):
         from .ret2system import ret2system
