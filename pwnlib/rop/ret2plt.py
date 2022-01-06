@@ -22,10 +22,6 @@ def ret2plt(rop, elf, leak, ret=None):
     if leak not in elf.got.values():
         log.error("No such address to leak in GOT.")
 
-    if ret:
-        if ret not in elf.sym.values():
-            log.error("No such address to leak in GOT.")
-
     rop.puts(leak)
 
     if ret:
