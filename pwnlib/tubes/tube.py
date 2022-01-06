@@ -868,7 +868,7 @@ class tube(Timeout, Logger):
             payload (bytes): payload
         """
 
-        curr_payload = flat({offset: payload})
+        curr_payload = packing.flat({offset: payload})
         self.sendline(curr_payload)
 
     def interactive(self, prompt=term.text.bold_red("$") + " "):
