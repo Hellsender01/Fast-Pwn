@@ -42,12 +42,12 @@ io.interactive()
 # Changes Made
 ### Added Code to -
 
-[pwnlib/rop/rop.py](pwnlib/rop/rop.py) - Added 2 functions ret2plt and ret2system from line 1552 to 1561
-[pwnlib/elf/elf.py](pwnlib/elf/elf.py) - Added 2 functions section_addr and find_bin_sh from line 1547 to 1570, Edited libc function from line 716 to 723
-[pwnlib/tubes/tube.py](pwnlib/tubes/tube.py) - Added 1 function sendpayload from line 863 to 872, Added 1 function recv_libc_leak from line 753 to 763
+[pwnlib/rop/rop.py](pwnlib/rop/rop.py) - Added 2 functions ret2plt and ret2system from line 1552 to 1561 \
+[pwnlib/elf/elf.py](pwnlib/elf/elf.py) - Added 2 functions section_addr and find_bin_sh from line 1547 to 1570, Edited libc function from line 716 to 723 \
+[pwnlib/tubes/tube.py](pwnlib/tubes/tube.py) - Added 1 function sendpayload from line 863 to 872, Added 1 function recv_libc_leak from line 753 to 763 \
 
 ### Created New File
 
-[pwnlib/rop/ret2system.py](pwnlib/rop/ret2system.py)
-[pwnlib/rop/ret2plt.py](pwnlib/rop/ret2plt.py)
+[pwnlib/rop/ret2system.py](pwnlib/rop/ret2system.py) \
+[pwnlib/rop/ret2plt.py](pwnlib/rop/ret2plt.py) \
 
