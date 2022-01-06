@@ -42,9 +42,9 @@ io.interactive()
 # Changes Made
 ### Added Code to -
 
-[pwnlib/rop/rop.py](pwnlib/rop/rop.py) - Added 2 functions ret2plt and ret2system from line 1552 to 1561 \
-[pwnlib/elf/elf.py](pwnlib/elf/elf.py) - Added 2 functions section_addr and find_bin_sh from line 1547 to 1570, Edited libc function from line 716 to 723 \
-[pwnlib/tubes/tube.py](pwnlib/tubes/tube.py) - Added 1 function sendpayload from line 863 to 872, Added 1 function recv_libc_leak from line 753 to 763
+[pwnlib/rop/rop.py](pwnlib/rop/rop.py) - Added 2 functions [ret2plt and ret2system](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/rop/rop.py#L1551-L1561)
+[pwnlib/elf/elf.py](pwnlib/elf/elf.py) - Added 2 functions [section_addr and find_bin_sh](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/elf/elf.py#L1547-L1570), Edited [libc function](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/elf/elf.py#L716-L723) \
+[pwnlib/tubes/tube.py](pwnlib/tubes/tube.py) - Added 2 functions [sendpayload](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/tubes/tube.py#L863-L872) and [recv_libc_leak](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/tubes/tube.py#L753-L763)
 
 ### Created New File
 
