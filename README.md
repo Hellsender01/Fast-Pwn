@@ -6,7 +6,7 @@ Some code I have added to my local Pwntools to speed up things.
 
 [pwnlib/rop/rop.py](pwnlib/rop/rop.py) - Added 2 functions [ret2plt and ret2system](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/rop/rop.py#L1551-L1561) \
 [pwnlib/elf/elf.py](pwnlib/elf/elf.py) - Added 2 functions [section_addr and find_bin_sh](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/elf/elf.py#L1547-L1570), Edited [libc function](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/elf/elf.py#L716-L723) \
-[pwnlib/tubes/tube.py](pwnlib/tubes/tube.py) - Added 2 functions [sendpayload](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/tubes/tube.py#L863-L872) and [recv_libc_leak](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/tubes/tube.py#L753-L763)
+[pwnlib/tubes/tube.py](pwnlib/tubes/tube.py) - Added 2 functions [sendpayload](https://github.com/Hellsender01/Fast-Pwn/blob/1fadadbb1982e717f0c9328367f2481f14d299f8/pwnlib/tubes/tube.py#L863-L872) and [recv_libc_leak](https://github.com/Hellsender01/Fast-Pwn/blob/caeda0f81931d33c9f56a5f0311afd8b20584c44/pwnlib/tubes/tube.py#L753-L765)
 
 ### Created New File
 
