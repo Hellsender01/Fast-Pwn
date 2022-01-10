@@ -756,10 +756,12 @@ class tube(Timeout, Logger):
         Args:
             offset (int): offset to substract from leak
         """
-        if context.bits == 32:
-            leak = self.recv(4)
+        if context.arch == "i386":
+            temp = self.recvuntil(b"\xf7")
+            leak = temp[-4:]
         else:
-            leak = self.recv(6)
+            temp = self.recvuntil(b"\x7f")
+            leak = temp[-6:]
         return packing.unpack(leak, "all") - offset
 
     def send(self, data):
