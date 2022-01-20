@@ -712,7 +712,8 @@ class ELF(ELFFile):
         system, returns a new :class:`.ELF` object pertaining to that library.
 
         If not found, the value will be :const:`None`."""
-
+        if self.arch == 'i386':
+            return None
         import pathlib
         import lddwrap
 
